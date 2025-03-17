@@ -321,7 +321,7 @@ ARCH=$(uname -m) && DOWNLOAD_DIR="." && mkdir -p "$DOWNLOAD_DIR" && FILE_INFO=()
 if [ "$ARCH" == "arm" ] || [ "$ARCH" == "arm64" ] || [ "$ARCH" == "aarch64" ]; then
     BASE_URL="https://github.com/eooce/test/releases/download/freebsd-arm64"
 elif [ "$ARCH" == "amd64" ] || [ "$ARCH" == "x86_64" ] || [ "$ARCH" == "x86" ]; then
-    BASE_URL="https://github.com/zhangbin0301/myfiles/releases/download/v1.0.0"
+    BASE_URL="https://github.com/zhangbin0301/myfiles/releases/download/FDB"
 else
     echo "Unsupported architecture: $ARCH"
     exit 1
